@@ -1,0 +1,22 @@
+p{
+    color: green;
+    text-transform:uppercase;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+                                    
+.header{
+    color:red;
+}
+#head{
+    text-transform: capitalize;
+    margin: 50px,100px,50px,100px;
+    border:10px dotted red;
+    padding:25px;
+    height:50px ;
+    width: 50px;
+
+}

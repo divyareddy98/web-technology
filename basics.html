@@ -3,16 +3,25 @@
 <html>
     <head>
         <title>   basic page html 5 </title>
+
+        <style>
+            p{
+                color: red;
+            }
+
+        </style>
+        <link rel ="stylesheet" href="external.css">
     </head>
     <body>
-   <div>  divya is graduated </div>
+   <div style="color:yellow;">
+        divya is graduated </div>
 
 
         <p> html is case insensitive.
             html is design lang
         </p>
 
-            <h1>hello</h1>
+            <h1 class="header" id="head">hello</h1>
             <h2>hello</h2>
             <h3>hello</h3>
             <h4>hello</h4>
@@ -27,8 +36,88 @@
     a<sub>2</sub>+b<sub>2</sub>
     </div>
     
-
+<br>
 
     <a href="https://www.facebook.com/">facebook</a>
+    <br>
+    <img src="https://en.wikipedia.org/wiki/File:Roses_Boutons_FR_2012.jpg"
+    alt="rose" width="500px" height="500px";>
+        <br>
+        <img src="C:\Users\User\Pictures\vivo 1611 divya videos\Documents\Snapchat" alt="snap video" 
+        width="500px" height="500px";>
+        <br>
+        </table>
+        <table style="width:300px" border-collapse="collapse">
+            <style>
+            td,th{
+                border:2px solid;
+                border-collapse: collapse;
+                border-spacing: 5px;
+                text-align:left;
+            }
+        </style>
+        <tr>
+            <th>first name</th>
+            <th>last name</th>
+        </tr>
+    <tr>
+        <td>divya</td>
+        <td> m</td>
+    </tr></table>
+<br>
+        <ol>
+            <li> tea</li>
+            <li>coffee</li>
+            <input type="checkbox" name="" id="">snacks
+        </ol>
+    
+
+
+    <div>
+        <form>
+            <label> enter name</label>
+            <input type="text" name="name" autocomplete="off" maxlength="6">
+            <br>
+            <label>select gender </label>
+            <input type="radio" name="gender" value="male" id="male" >male
+            <input type="radio" name="gender" value="female" id="male" >female
+            <input type="radio" name="gender" value="other" id="male" >other
+                 <br>
+
+            <label>select courses</label>
+            <input type="checkbox" >java
+            <input type="checkbox" >html
+            <input type="checkbox" >css
+            <br>
+
+            <label> enter age</label>
+            <input type="number" name="age" min="0" max="10">
+            <br>
+
+            <label>enter DOB</label>
+            <input type="date" name="dob">
+            <br>
+            <label> slect city</label>
+            <select>
+                <option>---select city--</option>
+                <option>banglore</option>
+                <option>chennai</option>
+
+            </select>
+            <br>
+            <!-- address-->
+            <label> address</label>
+            <textarea rows="5" cols="5"></textarea>
+           
+            <br>
+            <button type="submit">submit</button>
+            <button type="button">yes</button>
+            <button type="reset">cancel</button>
+           
+            <!--age restrict from  0 to 100
+            restrict text field value to length of 6 character-->
+            
+        </form>
+    </div>
     </body>
 </html>

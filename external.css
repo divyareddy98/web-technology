@@ -20,3 +20,21 @@ p{
     width: 50px;
 
 }
+div p{
+    color:yellow;
+}
+div>p{
+    color:blue;
+}
+div+p{
+    color:red;
+}
+div~p{
+    color:brown;
+}
+tr:nth-child(even){
+    color: palevioletred;
+}
+tr:hover{
+    color:orangered;
+}
